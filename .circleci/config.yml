@@ -10,4 +10,5 @@ jobs:
       - run: echo "hello, circleci"
       - run: python -V
       - run: pip install awsebcli
+      - run: docker version
 
