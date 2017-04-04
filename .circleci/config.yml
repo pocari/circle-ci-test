@@ -8,4 +8,8 @@ jobs:
     steps:
       - checkout
       - run: echo "hello, circleci"
+      - run: echo "CIRLE_SHA1            : ${CIRCLE_SHA1}"
+      - run: echo "CIRLE_BRANCH          : ${CIRCLE_BRANCH}"
+      - run: echo "CIRLE_TAG             : ${CIRCLE_TAG}"
+      - run: echo "CIRCLE_REPOSITORY_URL : ${CIRCLE_REPOSITORY_URL}"
 
