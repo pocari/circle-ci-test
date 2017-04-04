@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: /circulate
     docker:
-      - image: docker pull pocari/awseb-deployer:latest
+      - image: docker pull pocari/awseb-deployer
     steps:
       - checkout
       - run: echo "hello, circleci"
