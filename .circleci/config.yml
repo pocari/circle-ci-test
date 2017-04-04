@@ -9,4 +9,5 @@ jobs:
       - checkout
       - run: echo "hello, circleci"
       - run: python -V
+      - run: pip install awsebcli
 
