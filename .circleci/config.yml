@@ -12,3 +12,4 @@ jobs:
       - run: pip list
       - setup_remote_docker
       - run: docker version
+      - run: echo "HOGE_VAR $HOGE_VAR"
